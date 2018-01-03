@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-elasticsearch -Ecluster.name=babyduncanES -Enode.name=babyduncanESNode
+ES_PATH_CONF=../conf/node1 elasticsearch -d
+ES_PATH_CONF=../conf/node2 elasticsearch -d
